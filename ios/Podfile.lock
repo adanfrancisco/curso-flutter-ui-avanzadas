@@ -73,6 +73,8 @@ PODS:
     - FBSDKCoreKit/Swift
     - FBSDKLoginKit/Swift
     - Flutter
+  - flutter_secure_storage (3.3.1):
+    - Flutter
   - google_sign_in (0.0.1):
     - Flutter
     - GoogleSignIn (~> 5.0)
@@ -132,6 +134,7 @@ DEPENDENCIES:
   - firebase_core_web (from `.symlinks/plugins/firebase_core_web/ios`)
   - Flutter (from `Flutter`)
   - flutter_facebook_auth (from `.symlinks/plugins/flutter_facebook_auth/ios`)
+  - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
   - google_sign_in (from `.symlinks/plugins/google_sign_in/ios`)
   - google_sign_in_web (from `.symlinks/plugins/google_sign_in_web/ios`)
 
@@ -171,6 +174,8 @@ EXTERNAL SOURCES:
     :path: Flutter
   flutter_facebook_auth:
     :path: ".symlinks/plugins/flutter_facebook_auth/ios"
+  flutter_secure_storage:
+    :path: ".symlinks/plugins/flutter_secure_storage/ios"
   google_sign_in:
     :path: ".symlinks/plugins/google_sign_in/ios"
   google_sign_in_web:
@@ -194,6 +199,7 @@ SPEC CHECKSUMS:
   FirebaseInstallations: acb3216eb9784d3b1d2d2d635ff74fa892cc0c44
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   flutter_facebook_auth: a63fc41100a6494584bef37a677e0f70670d9674
+  flutter_secure_storage: 7953c38a04c3fdbb00571bcd87d8e3b5ceb9daec
   google_sign_in: f32920a589fdf4ab2918ec6dc5e5b0d5b8040ff5
   google_sign_in_web: 52deb24929ac0992baff65c57956031c44ed44c3
   GoogleAppMeasurement: e49be3954045b17d046f271b9cc1ec052bad9702
